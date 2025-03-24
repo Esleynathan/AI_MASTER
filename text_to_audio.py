@@ -12,9 +12,9 @@ client = OpenAI(
 
 # ['alloy', 'echo', 'fable', 'onyx', 'nova', 'shimmer']
 response = client.audio.speech.create(
-    model='tss-1',
+    model='tts-1',
     voice='alloy',
-    input='Olá, como vai?',
+    input='Olá, como vai? Você esta gostando do curso?',
 )
 
 response.write_to_file('meu_audio.mp3')
