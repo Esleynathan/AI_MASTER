@@ -14,7 +14,7 @@ model = ChatOpenAI(
     model='o4-mini-2025-04-16'
 )
 
-pdf_path = 'laptop_manual.pdf'
+pdf_path = 'contrato.pdf'
 loader = PyPDFLoader(pdf_path)
 
 docs = loader.load()
